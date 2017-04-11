@@ -344,7 +344,7 @@
       "metadata": {
         "description": "The Sql Server Version"
       },
-      "defaultValue": "SQL2016SP1-WS2016"
+      "defaultValue": "SQL2016-WS2012R2"
     },
     "numberOfSqlVMDisks": {
       "type": "string",
