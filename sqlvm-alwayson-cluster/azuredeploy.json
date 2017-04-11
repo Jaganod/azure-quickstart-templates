@@ -338,7 +338,7 @@
       "allowedValues": [
         "SQL2012SP3-WS2012R2",
         "SQL2014SP1-WS2012R2",
-        "SQL2016-WS2012R2",
+        "SQL2016SP1-WS2012R2",
         "SQL2016SP1-WS2016"
       ],
       "metadata": {
@@ -404,7 +404,7 @@
       "sqlwVMName": "cluster-fsw",
       "windowsImagePublisher": "MicrosoftWindowsServer",
       "windowsImageOffer": "WindowsServer",
-      "windowsImageSKU": "2016-Datacenter",
+      "windowsImageSKU": "2012-R2-Datacenter",
       "sqlImagePublisher": "MicrosoftSQLServer",
       "sqlImageOffer": "[parameters('sqlServerVersion')]",
       "rdpPort": 3389,
@@ -438,7 +438,7 @@
     "SQL2012SP3-WS2012R2": "Enterprise",
     "SQL2014-WS2012R2": "Enterprise",
     "SQL2014SP1-WS2012R2": "Enterprise",
-    "SQL2016-WS2012R2": "Enterprise",
+    "SQL2016SP1-WS2012R2": "SQLDev",
     "SQL2016SP1-WS2016": "SQLDev",
     "Monday": true,
     "Tuesday": true,
