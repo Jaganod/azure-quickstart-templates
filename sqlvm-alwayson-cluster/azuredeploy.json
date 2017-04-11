@@ -65,7 +65,7 @@
       "metadata": {
         "description": "The size of the AD VMs Created"
       },
-      "defaultValue": "Standard_D1_V1"
+      "defaultValue": "Standard_D1_v2"
     },
     "sqlVMSize": {
       "type": "string",
@@ -98,7 +98,7 @@
       "metadata": {
         "description": "The size of the SQL VMs Created"
       },
-      "defaultValue": "Standard_DS2_V2"
+      "defaultValue": "Standard_DS2_v2"
     },
     "witnessVMSize": {
       "type": "string",
@@ -131,7 +131,7 @@
       "metadata": {
         "description": "The size of the Witness VM Created"
       },
-      "defaultValue": "Standard_DS1_V2"
+      "defaultValue": "Standard_DS1_v2"
     },
     "domainName": {
       "type": "string",
@@ -159,7 +159,7 @@
       "metadata": {
         "description": "The name of Sql Server Storage Account"
       },
-      "defaultValue": "sa-workshop-sql-"
+      "defaultValue": "saworkshopsql"
     },
     "sqlStorageAccountType": {
       "type": "string",
@@ -176,7 +176,7 @@
       "metadata": {
         "description": "The name of  DC Storage Account"
       },
-      "defaultValue": "sa-workshop-dc-"
+      "defaultValue": "saworkshopdc"
     },
     "dcStorageAccountType": {
       "type": "string",
