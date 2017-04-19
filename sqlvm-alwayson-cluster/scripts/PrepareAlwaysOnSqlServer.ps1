@@ -46,19 +46,10 @@ configuration PrepareAlwaysOnSqlServer
         $RebootVirtualMachine = $true
     }
 
-    WaitForSqlSetup
+    # WaitForSqlSetup
 
     Node localhost
     {
-        xSqlCreateVirtualDisk CreateVirtualDisk
-        {
-            DriveSize = $NumberOfDisks
-            NumberOfColumns = $NumberOfDisks
-            BytesPerDisk = 1099511627776
-            OptimizationType = $WorkloadType
-            RebootVirtualMachine = $RebootVirtualMachine
-        }
-
         WindowsFeature FC
         {
             Name = "Failover-Clustering"
