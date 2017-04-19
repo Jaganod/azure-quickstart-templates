@@ -68,8 +68,8 @@
       "numberOfSqlVMDisks":{  
          "value":"2"
       },
-      "workloadType":{  
-         "value":"OLTP"
-      }
+    "workloadType": {
+      "value": "GENERAL"
+    }
    }
 }
